@@ -4,12 +4,11 @@ This code is implemented to explore the cascading effect of soical influence in 
 The following python packages are required to run the Influence_Cascade_Extraction_and_Visualization.ipynb.
 * statsmodels==0.12.1 
 * pandas
-* plotly
+* plotly==3.6.0
 * networkx
 * numpy
 * seaborn
 * scipy
-* plotly==3.6.0
 
 Dependencies for statsmodels are python >=3.6, Numpy >=1.15, SciPy >=1.2, Pandas >=0.23, Patsy >=0.5.1
 
