@@ -1,5 +1,5 @@
 # Influence Cascades
-This code is implemented to explore the cascading effect of soical influence in online social networks. We use initiation, contribution and sharing action classification to define influence relationships and input_data folder contains the magnitude of influence for each of these influence relationships between users in the interest communities and platforms. Influence_Cascade_Extraction_and_Visualization.ipynb extract Influence cascades from these networks, visualize the user distributions, influence distributions and, perform statistical tests for further analysis. 
+This code is implemented to explore the cascading effect of soical influence caused by actions in online social networks. We use initiation, contribution and sharing action classification to define influence relationships.
 
 ## Modules
 * initialization.py: the set of functions to extract influence cascades and to create dataframes for analysis
@@ -28,8 +28,11 @@ To create a free account: https://chart-studio.plotly.com/Auth/login/?action=sig
     * Go to "plotSankey" function
     * Uncomment the line "#plotly.tools.set_credentials_file(username='username', api_key='api_key')" and replace 'username' and 'api_key' with your credentials.
 
+## Data
+input_data folder contains the magnitude of influence for each of the influence relationships between users in the interest communities and platforms. 
+
 ## Running Influence_Cascade_Extraction_and_Visualization.ipynb
-This will extract influence cascades and perform all the analysis and visualizations.
+This will extract Influence cascades from the interest networks, visualize the user distributions, influence distributions and, perform statistical tests for further analysis.
 1. To install all the required python packages, uncomment the cell which, contains the command lines to install packges (press ctrl+/). 
 2. Execute all the cells
     * Set your plotly chart studio credentials before the execution, if necessary (Refer: other requirments).
