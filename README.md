@@ -19,7 +19,7 @@ To create a free account: https://chart-studio.plotly.com/Auth/login/?action=sig
 
 * To find account credentials: sign in to the account->go to settings->go to API keys
 * The first time users of plotly chart-studio (online), set your credentials as follows: 
-    * Go to infcascade module
+    * Go to infcascade.py in "module" folder
     * Go to "plotSankey" function
     * Uncomment the line "#plotly.tools.set_credentials_file(username='username', api_key='api_key')" and replace 'username' and 'api_key' with your credentials.
 
